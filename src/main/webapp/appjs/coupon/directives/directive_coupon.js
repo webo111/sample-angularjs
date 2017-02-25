@@ -5,11 +5,15 @@ define(['./directives'], function(directives){
 			return {
 	            restrict: 'E',
 	            templateUrl: 'appjs/coupon/directives/tpl/coupon.html',
-	            replace: false,
+	            replace: true,
 	            transclude: true,
 	            link: function (scope, element, attrs) {
-	            	scope.title = 'directive coupon title'
+	            	//scope.id = $routeParams.id;
+	            	/*scope.title = 'directive coupon title'
 	            	scope.coupon = {title:'coupon01',content:'content01'};
+	            	scope.say = function(){
+	            		alert('ok...');
+	            	}*/
 	            }
 			}
 	}]);

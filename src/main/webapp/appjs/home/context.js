@@ -1,3 +1,3 @@
-define(['./controller/homeController'], function(module){
+define(['./module'], function(module){
 	
 });

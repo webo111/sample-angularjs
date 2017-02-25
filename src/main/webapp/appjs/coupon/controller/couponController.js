@@ -1,10 +1,9 @@
 define(['../module'], function(group){
 	'use strict';
-	group.controller('couponController',['$scope','$routeParams', function(scope,$routeParams){
-		scope.id = $routeParams.id;
-		scope.hello = 'hello';
-		scope.say = function(){
-			alert('say hello');
-		}
+	group.controller('couponController',['$scope', function(scope){
+		$('#navbar li').click(function(){
+			$('#navbar li').removeClass('active');
+			$(this).addClass('active');
+		});
 	}]);
 });
