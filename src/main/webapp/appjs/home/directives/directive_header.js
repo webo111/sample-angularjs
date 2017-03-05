@@ -9,6 +9,6 @@ define(['./directives'], function(directives){
             link: function (scope, element, attrs) {
                 scope.text = 'header';
             }
-		}
+		};
 	}]);
 });

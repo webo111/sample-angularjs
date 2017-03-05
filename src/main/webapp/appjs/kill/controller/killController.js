@@ -4,6 +4,6 @@ define(['../module'], function(group){
 		scope.hello = 'hello';
 		scope.say = function(){
 			alert('say hello');
-		}
+		};
 	}]);
 });

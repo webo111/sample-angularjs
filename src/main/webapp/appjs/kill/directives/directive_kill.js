@@ -10,6 +10,6 @@ define(['./directives'], function(directives){
 	            link: function (scope, element, attrs) {
 	            	scope.coupon = {title:'coupon01',content:'content01'};
 	            }
-			}
+			};
 	}]);
 });

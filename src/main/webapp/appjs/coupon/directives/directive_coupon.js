@@ -15,8 +15,8 @@ define(['./directives'], function(directives){
 	            	scope.id = $routeParams.id;
 	            	scope.say = function(){
 	            		alert('ok...');
-	            	}
+	            	};
 	            }
-			}
+			};
 	}]);
 });
